@@ -19,6 +19,16 @@ module cpu (
 );
 
     // TODO: Delete the following line and implement this module.
+    // Fetch
+
+    // Decode
+
+    // Execute
+
+    // Memory
+
+    // Writeback
+
     ref_cpu golden(.*);
 
 endmodule

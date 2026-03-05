@@ -16,7 +16,7 @@ CC = /opt/riscv32i/bin/riscv32-unknown-elf-gcc
 OBJCOPY = /opt/riscv32i/bin/riscv32-unknown-elf-objcopy
 OBJDUMP = /opt/riscv32i/bin/riscv32-unknown-elf-objdump
 
-XILINX_VIVADO ?= /opt/Xilinx/Vivado/2023.2/
+XILINX_VIVADO ?= /home/user/hades-v-ws/vivado/2025.2/Vivado
 VIVADO ?= $(XILINX_VIVADO)/bin/vivado
 
 # Directories
