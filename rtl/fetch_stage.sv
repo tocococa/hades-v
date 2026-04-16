@@ -56,6 +56,10 @@ module fetch_stage (
         end
     end
 
+    // outputs to decode stage
+    assign instruction_reg_out = if_id_instruction;
+    assign program_counter_reg_out = if_id_pc;
+
     ref_fetch_stage golden(.*);
 
 endmodule

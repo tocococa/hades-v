@@ -33,6 +33,8 @@ module decode_stage (
     output logic [31:0] jump_address_backwards_out
 );
 
+    
+
     // TODO: Delete the following line and implement this module.
     ref_decode_stage golden(.*);
 
